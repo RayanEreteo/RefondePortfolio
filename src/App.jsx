@@ -1,5 +1,6 @@
 import Introduction from './components/Introduction'
 import Navbar from './components/Navbar'
+import Parcours from './components/Parcours'
 import './css/app.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Navbar />
       <Introduction />
+      <Parcours />
     </>
   )
 }
