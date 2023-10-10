@@ -1,5 +1,19 @@
-.parcours{
+#parcours{
     width: 100vw;
-    height: 100vh;
     background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.presentation{
+    font-family: Helvetica, sans-serif;
+    font-size: 2rem;
+    height: fit-content;
+    margin: 3rem;
+}
+
+.presentation-text{
+    font-size: 2rem;
 }

@@ -8,7 +8,7 @@ import React from "../assets/languagesLogo/react.svg";
 
 function Introduction() {
   return (
-    <div className="introduction">
+    <div id="introduction">
        <div className="line" style={{width: "200%", height: "6px", background: "grey"}}></div>
       <div className="main-container">
         <h2 className="main-title">RAYAN ERETEO</h2>
