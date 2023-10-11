@@ -1,6 +1,7 @@
 import "../../css/parcours.css";
 
 import SkillsList from "../SkillsList";
+import StackList from "../StackList";
 
 function Parcours() {
   return (
@@ -29,7 +30,16 @@ function Parcours() {
           <SkillsList />
         </div>
       </div>
-      <div className="tech-stack"></div>
+      <div className="tech-stack">
+        <h2
+            style={{ fontWeight: "lighter", opacity: 0.5, textAlign: "center" }}
+          >
+            STACK COMPLET
+        </h2>
+        <div className="stack">
+          <StackList />
+        </div>
+      </div>
     </div>
   );
 }
