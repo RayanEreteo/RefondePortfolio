@@ -1,10 +1,10 @@
-import "../css/Introduction.css";
+import "../../css/Introduction.css";
 
 // Logo stack import
-import Mongo from "../assets/languagesLogo/mongo.svg";
-import Express from "../assets/languagesLogo/express.svg";
-import Node from "../assets/languagesLogo/node.svg";
-import React from "../assets/languagesLogo/react.svg";
+import Mongo from "../../assets/languagesLogo/mongo.svg";
+import Express from "../../assets/languagesLogo/express.svg";
+import Node from "../../assets/languagesLogo/node.svg";
+import React from "../../assets/languagesLogo/react.svg";
 
 function Introduction() {
   return (

@@ -1,6 +1,6 @@
-import Introduction from './components/Introduction'
-import Navbar from './components/Navbar'
-import Parcours from './components/Parcours'
+import Introduction from './components/Category/Introduction.jsx'
+import Navbar from './components/Navbar.jsx'
+import Parcours from './components/Category/Parcours.jsx'
 import './css/app.css'
 
 function App() {
