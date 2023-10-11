@@ -3,6 +3,8 @@ import "../../css/parcours.css";
 import SkillsList from "../SkillsList";
 import StackList from "../StackList";
 
+import StackListFramework from "../StackListFramework";
+
 function Parcours() {
   return (
     <div id="parcours">
@@ -32,12 +34,15 @@ function Parcours() {
       </div>
       <div className="tech-stack">
         <h2
-            style={{ fontWeight: "lighter", opacity: 0.5, textAlign: "center" }}
-          >
-            STACK COMPLET
+          style={{ fontWeight: "lighter", opacity: 0.5, textAlign: "center" }}
+        >
+          STACK COMPLET
         </h2>
-        <div className="stack">
+        <div className="stack languages">
           <StackList />
+        </div>
+        <div className="stack frameworks">
+          <StackListFramework />
         </div>
       </div>
     </div>
