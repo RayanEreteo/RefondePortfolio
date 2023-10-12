@@ -1,0 +1,39 @@
+#portfolio{
+    width: 100vw;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+}
+
+
+.main-content{
+    margin-top: 5rem;
+}
+
+.portfolio-projects{
+    height: 500px;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project{
+    border-radius: 30px;
+    border: 2px solid white;
+    width: 500px;
+    height: 450px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px -6px 15px 5px #572E81; 
+    box-shadow: 0px 10px 13px -7px #000000, -1px -6px 15px 5px #572E81;
+}
+
+.project-thumbnail{
+    width: 100%;
+}
+
+.card-main{
+    margin: 10px;
+}
