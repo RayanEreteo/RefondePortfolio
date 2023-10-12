@@ -22,10 +22,11 @@
 }
 
 .project{
+    position: relative;
     border-radius: 30px;
     border: 2px solid white;
     width: 500px;
-    height: 450px;
+    height: 470px;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px -6px 15px 5px #572E81; 
     box-shadow: 0px 10px 13px -7px #000000, -1px -6px 15px 5px #572E81;
 }
@@ -36,4 +37,26 @@
 
 .card-main{
     margin: 10px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.project-card-button{
+    background: #572E81;
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 10px;
+    transition: all 0.2s ease-in;
+}
+
+.project-card-button:hover{
+    background: none;
 }

@@ -14,8 +14,8 @@ function ProjectCard({ name, desc, thumbnail, link, sourceCodeLink }) {
         </div>
         <div className="card-footer">
             <div className="buttons">
-                <a href={link} target='_blank'>Voir le projet</a>
-                <a href={sourceCodeLink} target='_blank'>Voir le code source</a>
+                <a className='project-card-button' href={link} target='_blank'>Voir le projet</a>
+                <a className='project-card-button' href={sourceCodeLink} target='_blank'>Voir le code source</a>
             </div>
         </div>
     </div>
