@@ -45,7 +45,10 @@
 @media screen and (max-width: 840px){
     .portfolio-projects{
         flex-direction: column;
-        height: 2000px;
+    }
+
+    .project {
+        margin-bottom: 3rem;
     }
 }
 
