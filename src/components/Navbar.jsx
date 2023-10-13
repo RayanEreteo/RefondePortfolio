@@ -12,7 +12,7 @@ function Navbar() {
             <div className="separator" style={{width: '20px', height: "100%", background: "#D9D9D9"}}></div>
             <a href="#portfolio" className='link'>Portfolio</a>
             <div className="separator" style={{width: '20px', height: "100%", background: "#D9D9D9"}}></div>
-            <a href="" className='link'>Réseaux & Contact</a>
+            <a href="#contact" className='link'>Réseaux & Contact</a>
         </div>
     </div>
   )
