@@ -24,8 +24,8 @@ function Contact() {
             </form>
         </div>
         <div className="social-networks">
-          <a href="https://github.com/RayanEreteo"><img src={Git} alt="github" /></a>
-          <a href="https://www.linkedin.com/in/rayan-ereteo-6998b9254/"><img src={Linkedin} alt="linkedin" /></a>
+          <a href="https://github.com/RayanEreteo" target="_blank"><img src={Git} alt="github" /></a>
+          <a href="https://www.linkedin.com/in/rayan-ereteo-6998b9254/" target="_blank"><img src={Linkedin} alt="linkedin" /></a>
         </div>
         <div className="mark" style={{marginTop: "5rem", margin: "13px"}}>
           <p>Développer par Rayan Ereteo (2023)</p>
