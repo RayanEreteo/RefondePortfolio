@@ -1,0 +1,51 @@
+@media screen and (max-width: 680px){
+    .navbar{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 732px){
+    .stack-container{
+        width: 30rem;
+    }
+
+    .stack-name{
+        letter-spacing: 50px;
+    }
+}
+
+@media screen and (max-width: 512px){
+    .stack-name{
+        letter-spacing: 20px;
+    }
+
+    .main-title{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 410px){
+    .stack-container{
+        width: 26rem;
+    }
+}
+
+@media screen and (max-width: 503px){
+    .skills-set{
+        flex-direction: column;
+    }
+
+    .skills-set * {
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 840px){
+    .portfolio-projects{
+        flex-direction: column;
+        height: 2000px;
+    }
+}
+
