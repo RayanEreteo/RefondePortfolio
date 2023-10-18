@@ -4,6 +4,7 @@ import ProjectCard from "../ProjectCard";
 import Clicker from "../../assets/thumbnail/Clicker.jpg";
 import Calc from "../../assets/thumbnail/Calc.jpg"
 import Cat from "../../assets/thumbnail/Cat.jpg"
+import Weather from "../../assets/thumbnail/Weather.jpg"
 
 function Portfolio() {
   return (
@@ -34,13 +35,13 @@ function Portfolio() {
             sourceCodeLink={"https://github.com/RayanEreteo/react-calculator"}
           />
            <ProjectCard
-            name={"Génerateur de chat"}
+            name={"Info Météo"}
             desc={
-              "Une simple application ou en cliquant sur un boutton, vous générer une image de chat."
+              "Une simple application météo ou vous récupérez les informations météorologique d'une ville."
             }
-            thumbnail={Cat}
-            link={"https://reactcatgenerator.web.app"}
-            sourceCodeLink={"https://github.com/RayanEreteo/ReactCatGenerator"}
+            thumbnail={Weather}
+            link={"https://infometeo-78814.web.app"}
+            sourceCodeLink={"https://github.com/RayanEreteo/WeatherApp"}
           />
         </div>
       </div>
